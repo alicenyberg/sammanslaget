@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #7b0000;
+  --font-color: #341111;
+  --nav-grey: #5f5f5f;
+}
+
+@font-face {
+  font-family: "AlegreyaSans";
+  src: url(./fonts/AlegreyaSans-Regular.ttf) format("truetype");
+  font-style: normal;
+}
+
+nav {
+  border-bottom: 0.12rem solid var(--font-color);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  font-family: "AlegreyaSans";
+  font-size: 2rem;
+}
+
+li a {
+  color: var(--primary-color);
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  text-decoration: none;
+}
+
+// mobile
+@media only screen and (min-width: 480px) {
+}
+
+// tablet
+@media only screen and (min-width: 760px) {
+}
