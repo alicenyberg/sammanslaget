@@ -36,10 +36,8 @@ li a {
   text-decoration: none;
 }
 
-// mobile
-@media only screen and (min-width: 480px) {
-}
-
-// tablet
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 480px) {
+  nav li {
+    font-size: 1.6rem;
+  }
 }

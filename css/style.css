@@ -9,10 +9,11 @@
   src: url(./fonts/AlegreyaSans-Regular.ttf) format("truetype");
   font-style: normal;
 }
+
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 button {
@@ -25,26 +26,4 @@ button {
 
 h3 {
   font-family: "AlegreyaSans";
-}
-
-// game container
-.container {
-  display: flex;
-  justify-content: center;
-}
-
-// the game
-.canvas {
-  margin-top: 2rem;
-  background-color: black;
-  width: 1000px;
-  height: 600px;
-}
-
-// mobile
-@media only screen and (min-width: 480px) {
-}
-
-// tablet
-@media only screen and (min-width: 760px) {
 }
