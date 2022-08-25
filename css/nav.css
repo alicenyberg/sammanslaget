@@ -1,7 +1,7 @@
 :root {
   --primary-color: #7b0000;
-  --font-color: #341111;
-  --nav-grey: #5f5f5f;
+  --font-color: #1b0909;
+  --nav-grey: #3b3333;
 }
 
 @font-face {
@@ -11,7 +11,7 @@
 }
 
 nav {
-  border-bottom: 0.12rem solid var(--font-color);
+  border-bottom: 0.15rem solid var(--primary-color);
 }
 
 ul {
@@ -34,6 +34,13 @@ li a {
   padding-left: 4rem;
   padding-top: 1rem;
   text-decoration: none;
+}
+
+a:active {
+  color: var(--nav-grey);
+}
+a:hover {
+  color: var(--nav-grey);
 }
 
 @media only screen and (max-width: 480px) {
