@@ -88,6 +88,10 @@ main {
   border-radius: 1rem;
 }
 
+.role {
+  color: var(--primary-color);
+}
+
 @media only screen and (max-width: 480px) {
   h1 {
     font-size: 30px;
