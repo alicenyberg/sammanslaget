@@ -15,12 +15,14 @@ h1 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   color: var(--font-color);
+  border-bottom: 0.15rem solid var(--primary-color);
 }
 
 h2 {
   font-family: "AlegreyaSans";
   font-size: 27px;
   color: var(--font-color);
+  text-align: left;
 }
 
 h3 {
@@ -60,15 +62,16 @@ main {
   grid-template-columns: repeat(2, 1fr);
   padding-top: 0;
   margin-bottom: 3rem;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .card {
-  justify-items: center;
+  display: grid;
   padding: 2rem;
   margin: 1rem;
   text-align: left;
+  justify-items: stretch;
 }
 
 .text {
@@ -76,8 +79,12 @@ main {
   width: 90%;
 }
 
+.email {
+  margin-top: 0.5rem;
+}
+
 .card-img {
-  border-radius: 4px;
+  border-radius: 1rem;
 }
 
 @media only screen and (max-width: 480px) {
@@ -109,7 +116,7 @@ main {
   }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 760px) {
   .about-wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

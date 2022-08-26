@@ -32,11 +32,11 @@ function unityShowBanner(msg, type) {
 }
 
 var buildUrl = "Build";
-var loaderUrl = buildUrl + "/Sammanslaget2.loader.js";
+var loaderUrl = buildUrl + "/Sammanslaget2.2.loader.js";
 var config = {
-  dataUrl: buildUrl + "/Sammanslaget2.data.unityweb",
-  frameworkUrl: buildUrl + "/Sammanslaget2.framework.js.unityweb",
-  codeUrl: buildUrl + "/Sammanslaget2.wasm.unityweb",
+  dataUrl: buildUrl + "/Sammanslaget2.2.data.unityweb",
+  frameworkUrl: buildUrl + "/Sammanslaget2.2.framework.js.unityweb",
+  codeUrl: buildUrl + "/Sammanslaget2.2.wasm.unityweb",
   streamingAssetsUrl: "StreamingAssets",
   companyName: "DefaultCompany",
   productName: "Sammanslaget",
