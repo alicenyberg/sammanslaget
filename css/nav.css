@@ -12,6 +12,7 @@
 
 nav {
   border-bottom: 0.15rem solid var(--primary-color);
+  margin-bottom: 2rem;
 }
 
 ul {
