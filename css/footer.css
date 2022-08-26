@@ -12,7 +12,7 @@ footer {
   justify-items: center;
   justify-content: space-between;
   align-items: baseline;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .yrgo-img {
@@ -23,6 +23,10 @@ footer {
 .logo-img {
   width: 340px;
   height: 78px;
+}
+
+.footer-container {
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 480px) {
@@ -50,4 +54,25 @@ footer {
 }
 
 @media only screen and (max-width: 760px) {
+  .logos {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .yrgo-img {
+    width: 180px;
+    height: 45px;
+  }
+
+  .logo-img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    height: 60px;
+  }
 }
