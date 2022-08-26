@@ -12,7 +12,9 @@ footer {
   justify-items: center;
   justify-content: space-between;
   align-items: baseline;
-  margin: 2rem;
+  margin: 5rem;
+  margin-top: 0;
+  padding-bottom: 4rem;
 }
 
 .yrgo-img {
